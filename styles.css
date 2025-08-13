@@ -1766,6 +1766,23 @@ h3 {
   opacity: 0.8;
 }
 
+.contact-info .contact-website {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.contact-info .contact-website a {
+  color: var(--accent-gold);
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.contact-info .contact-website a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
 .controls {
   display: flex;
   gap: 15px;
