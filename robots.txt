@@ -1,0 +1,17 @@
+# Robots.txt for Daniel Defense AI Presentation
+# This is a presentation/demo site
+
+# Allow all crawlers but limit crawl rate
+User-agent: *
+Crawl-delay: 2
+
+# Disallow crawling of assets if you want to keep them private
+# Disallow: /assets/
+# Disallow: /*.png$
+# Disallow: /*.jpg$
+
+# Allow access to the main presentation
+Allow: /
+
+# Sitemap location (if you create one later)
+# Sitemap: https://asyncai.github.io/danieldefense-ai-presentation/sitemap.xml
